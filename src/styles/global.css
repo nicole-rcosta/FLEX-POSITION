@@ -6,7 +6,7 @@
 
     /* altura do header */
     height: 8vh;
-    background-color: #36b0be;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
 
     /* flex para alinhar os itens horizontais */
@@ -45,7 +45,7 @@
 }
 
 .header-menu li:hover{
-    background-color: rgb(49, 191, 212);
+    background-color: rgb(46, 159, 177);
     color: #fff;
     box-shadow: 0 4px 8px rgb(131, 243, 239);
 
@@ -91,15 +91,17 @@
     
 }
 
+
+/*  Estilos para o Main (conteúd principal  */
 .main-content{
     width: 100%;
     height: 200vh;
-    background-color: rgb(189, 255, 252);
+    background-color: rgb(113, 227, 243);
 }
 
 .content-sec01{
     width: 100%;
     height: 100vh;
-    background-color:rgb(113, 227, 243) ;
+    background-color:rgb(189, 255, 252) ;
 }
 /* só pra comitar no meu nome */
