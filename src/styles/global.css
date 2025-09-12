@@ -5,27 +5,38 @@
 
 
 html{
-
+    scroll-behavior: smooth;
 
 }
 
 .content-nosso-time, .content-projetos, .content-como-ajudar, .content-contatos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
 
 }
 
 .content-nosso-time{
-
+    background-color: rgb(76, 192, 192)
 }
 
 .content-projetos{
+    background-color: rgb(13, 158, 158);
+
 
 }
 
 .content-como-ajudar{
+    background-color: rgb(110, 212, 212);
 
 }
 
 .content-contatos{
+    background-color: lightyellow;
 
 }
 
