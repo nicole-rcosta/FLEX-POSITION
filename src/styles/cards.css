@@ -1,5 +1,12 @@
 .speaker-card{
-    background-color: lightyellow;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 200px;
+    text-align: center;
+    background-color: lightcyan;
+    box-sizing: border-box;
 
 }
 
@@ -9,23 +16,29 @@
 
 
 .speaker-card img{
-    height:30vh;
+    width: 100%;
+    border-radius: 10%;
+    padding: 10px;
+    
+    
  
 }
 
 .speaker-card figcaption{
+    border-radius: 10%;
 
 }
 
 .speaker-card h3{
     background-color: lightcyan;
     color: rgb(24, 92, 104);
-    
-
-
+    padding: 10px; 
+    font-size: 20px;
 }
 
 .speaker-card p{
+    background-color: lightcyan;
     color: darkcyan;
-
+    padding: 10px;
+    
 }
