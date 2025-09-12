@@ -1,0 +1,31 @@
+.speaker-card{
+    background-color: lightyellow;
+
+}
+
+.speaker-card:hover{
+
+}
+
+
+.speaker-card img{
+    height:30vh;
+ 
+}
+
+.speaker-card figcaption{
+
+}
+
+.speaker-card h3{
+    background-color: lightcyan;
+    color: rgb(24, 92, 104);
+    
+
+
+}
+
+.speaker-card p{
+    color: darkcyan;
+
+}
