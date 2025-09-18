@@ -1,43 +1,51 @@
 .speaker-card{
-    justify-content:center;
+    max-width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: ease-out 0.3s;
+    
+    
+    /* justify-content:center;
     align-items: center;
     flex-direction: column;
     display: flex;
     width: 200px;
     text-align: center;
     background-color: lightcyan;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 
 }
 
-.speaker-card:hover{
 
+/* Pseudo classe que controla o evento do mouse (em cima) */
+.speaker-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 
 .speaker-card img{
-    width: 100%;
-    border-radius: 10%;
-    padding: 10px;
-    
-    
- 
+    width: 100%; 
+    display: block;
 }
 
 .speaker-card figcaption{
-    border-radius: 10%;
+    padding: 10px;
+    background-color: #f9f9f9;
 
 }
 
 .speaker-card h3{
-    background-color: lightcyan;
+    margin: 5px 0;
     color: rgb(24, 92, 104);
-    padding: 10px; 
     font-size: 20px;
 }
 
 .speaker-card p{
-    background-color: lightcyan;
+    margin: 3px 0;
     color: darkcyan;
     padding: 10px;
     
