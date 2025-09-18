@@ -5,42 +5,58 @@
     bottom: 0;
     left: 0;
     width: 100%;
-
-
     height: 6vh;
     background-color: #c4fdff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
-
-
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 20px;
     z-index: 1000; 
 
 }
 
 .footer-address{
+    width: 100%;
+    color: rgb(5, 81, 81);
 
 }
 
 .footer-address__title{
+    font-weight: bold;
+    font-size: 20px;
+   
 
 }
 
 .footer-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .footer-social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 
 }
 
 .footer-social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 
 }
 
 .footer-social img{
+    height: 24px;
+    transition: 0.3 ease;
 
 }
 
