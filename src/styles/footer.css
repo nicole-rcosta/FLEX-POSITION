@@ -5,7 +5,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 6vh;
+    height: 7vh;
     background-color: #c4fdff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
     display: flex;
@@ -37,6 +37,10 @@
 
 }
 
+.footer-info img{
+    width: 200px;
+}
+
 .footer-social{
     display: flex;
     justify-content: flex-end;
@@ -61,5 +65,8 @@
 }
 
 .effect:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(00 3px rgb(115, 214, 176));
+    cursor: pointer;
 
 }
